@@ -1,9 +1,8 @@
 import React from 'react'
 
-export default function StartTask() {
-  return (
-    <div>
-      
-    </div>
-  )
+const StartTask = () => {
+    return (
+        <div>StartTask</div>
+    )
 }
+export default StartTask

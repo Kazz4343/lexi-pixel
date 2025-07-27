@@ -145,7 +145,7 @@ export function generateDynamicSpacedRepetitionSchedule(
                 newWordsToday < maxNewPerDay &&
                 nextWordIndex < totalWords &&
                 reviewCount < maxReviewsPerDay
-            ) {
+                ) {
                 const wordIndex = nextWordIndex++
                 today.push(wordIndex)
                 learningQueue.push({

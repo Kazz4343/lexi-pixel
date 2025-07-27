@@ -4,17 +4,17 @@ import Countdown from '../Countdown'
 import History from '../History'
 
 
-const Dashboard = (props) => { 
-  
+const Dashboard = (props) => {
 
-  
-  return (
-    <section id='dashboard'>
-      <Stats {...props}/>
-      <Countdown {...props}/>
-      <History {...props}/>
-    </section>
-  )
+
+
+    return (
+        <section id='dashboard'>
+            <Stats {...props}/>
+            <Countdown {...props}/>
+            <History {...props}/>
+        </section>
+    )
 }
 
 export default Dashboard
